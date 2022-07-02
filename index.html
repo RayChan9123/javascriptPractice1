@@ -94,13 +94,35 @@
             alert(letter );
         }
         capitalize(string1);
-        */
+        
        let string2 = "abcd";
 
         let lastLetter = (string2) => string2.slice(-1);
            
         alert(`${lastLetter(string2)}`);
         alert(`${typeof(lastLetter(string2))}`);
+        
+       let answer = parseInt(prompt("Lets enter the number you want to Fizzbuzz up to: "));
+
+       for (let i = 1; i <= answer; i++)
+       {
+        if (i % 3 === 0 && i % 5 === 0)
+        {
+            console.log("Fizzbuzz");
+        }
+         else if ( i % 5 === 0) 
+        {
+            console.log("Buzz");
+        } else if (i % 3 === 0)
+        {
+            console.log("Fizz");
+        }else
+        {
+            console.log(i);
+        }
+        
+       }*/
+       
    </script>
 </body>
 </html>
